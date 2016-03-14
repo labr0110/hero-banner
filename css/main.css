@@ -5,3 +5,13 @@ html {
 *, *::before, *::after {
 	box-sizing: inherit;
 }
+
+.content {
+  padding: 0.1rem;
+  position: absolute;
+  bottom: 1rem;
+}
+
+.banner {
+  max-height: 500px;
+}
