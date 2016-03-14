@@ -6,6 +6,11 @@ html {
 	box-sizing: inherit;
 }
 
+body {
+  font-family: "Open Sans", serif;
+  text-size: 2rem;
+}
+
 .content {
   padding: 0.1rem;
   position: absolute;
@@ -13,5 +18,20 @@ html {
 }
 
 .banner {
+  position: relative;
   max-height: 500px;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+span {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.img-flex {
+  width: 100%;
+
 }
